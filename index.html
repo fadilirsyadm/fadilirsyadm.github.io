@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Situs Web Personal" />
+  <title>Fadil Irsyad Muhammad - Situs Web Personal</title>
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="page-noise" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#home" aria-label="Portfolio Dark UI">
+        <img src="assets/logo.svg" alt="" />
+      </a>
+
+      <button class="menu-toggle" aria-label="Buka menu" aria-expanded="false" aria-controls="siteNav">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav id="siteNav" class="site-nav">
+        <a href="#home" class="is-active">Beranda</a>
+        <a href="#profile">Profil</a>
+        <a href="#resume">Resume</a>
+        <a href="#portfolio">Portofolio</a>
+        <a href="#tools">Keahlian</a>
+        <a href="#contact">Kontak</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="hero section">
+      <div class="container hero-grid reveal">
+        <div class="hero-copy">
+          <p class="eyebrow">SITUS WEB PERSONAL</p>
+          <h1>Fadil Irsyad Muhammad</h1>
+          <p class="hero-role">Aspiring Data Analyst</p>
+          <p class="hero-summary">
+          </p>
+
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#portfolio">Lihat Portofolio</a>
+            <a class="btn btn-secondary" href="#cv">Unduh CV</a>
+            <a class="btn btn-secondary" href="#contact">Hubungi Saya</a>
+          </div>
+
+          <div class="socials" aria-label="Tautan sosial">
+            <a href="https://linkedin.com/in/fadilirsyadm" aria-label="LinkedIn" target="_blank">
+              <img src="assets/linkedin-gray.png" alt="LinkedIn" class="social-icon">
+            </a>
+            <a href="https://github.com/fadilirsyadm" aria-label="GitHub" target="_blank">
+              <img src="assets/github.png" alt="GitHub" class="social-icon">
+            </a>
+            <a href="https://www.kaggle.com/fadilirsyadmuhammad" aria-label="Kaggle" target="_blank">
+              <img src="assets/kaggle.png" alt="Kaggle" class="social-icon">
+            </a>
+            <!-- <a href="#" aria-label="Dribbble">
+              <span class="social-icon">Dr</span>
+            </a> -->
+          </div>
+
+          <div class="hero-stats">
+            <article>
+              <strong>10+</strong>
+              <span>Proyek pribadi.</span>
+            </article>
+            <article>
+              <strong>3+</strong>
+              <span>Tahun eksplorasi di bidang analisis data.</span>
+            </article>
+            <article>
+              <strong>6+</strong>
+              <span>Tools utama.</span>
+            </article>
+          </div>
+        </div>
+
+        <div class="hero-art">
+          <img src="assets/hero-profile.jpg" alt="Ilustrasi desainer duduk di atas buku" />
+        </div>
+      </div>
+    </section>
+
+    <section id="profile" class="section">
+      <div class="container">
+        <div class="section-heading reveal">
+          <span class="section-kicker">Tentang Saya</span>
+          <h2>Profil Personal</h2>
+          <div class="section-line"></div>
+        </div>
+
+        <div class="profile-grid reveal">
+          <div class="profile-art card card-flat">
+            <img src="assets/profile-illustration.svg" alt="Ilustrasi workspace designer" />
+          </div>
+
+          <div class="profile-copy card">
+            <p>
+              Fresh Graduate S1 program studi Statistika Universitas Gadjah Mada 
+              dengan minat di bidang analisis data, business analytics, dan data science.
+              Berpengalaman dalam pengolahan data, analisis statistik, visualisasi data, 
+              serta penyusunan laporan/dasbor untuk mendukung pengambilan keputusan bisnis.
+            </p>
+            <p>
+              Memiliki kemampuan dalam menggunakan perangkat dan kueri seperti 
+              Microsoft Excel, Microsoft Power BI, Tableau, Python, R, dan SQL. 
+              Tersertifikasi TensorFlow Developer dan terbiasa bekerja dengan pendekatan analitis berbasis data. 
+              Saya mencari kesempatan sebagai Data Analyst untuk menerapkan pengetahuan dan pengalaman saya, 
+              mendukung pengambilan keputusan berbasis data, 
+              serta memberikan kontribusi bagi perusahaan sesuai dengan posisi yang tersedia.
+            </p>
+
+            <!-- <div class="feature-list">
+              <span>Dark UI aesthetic</span>
+              <span>Fully responsive</span>
+              <span>Portfolio filtering</span>
+              <span>Animated reveal</span>
+              <span>Editable content</span>
+              <span>Pure HTML/CSS/JS</span>
+            </div> -->
+
+            <a class="text-link" href="#resume">Lihat ringkasan pengalaman</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="resume" class="section">
+      <div class="container">
+        <div class="section-heading reveal">
+          <span class="section-kicker">Pengalaman</span>
+          <h2>Resume</h2>
+          <div class="section-line"></div>
+        </div>
+
+        <div class="resume-grid reveal">
+          <div class="resume-column">
+            <div class="card stack-card">
+              <h3>PENDIDIKAN</h3>
+              <div class="timeline">
+                <article class="timeline-item">
+                  <span class="timeline-dot"></span>
+                  <div>
+                    <strong>Universitas Gadjah Mada</strong>
+                    <p>S1 Statistika</p>
+                    <small>2025</small>
+                  </div>
+                </article>
+                <!-- <article class="timeline-item">
+                  <span class="timeline-dot"></span>
+                  <div>
+                    <strong>Universitas S2</strong>
+                    <p>S2 Program Studi</p>
+                    <small>2028</small>
+                  </div>
+                </article> -->
+              </div>
+            </div>
+
+            <div class="card stack-card">
+              <h3>PRESTASI</h3>
+              <div class="timeline">
+                <article class="timeline-item">
+                  <span class="timeline-dot"></span>
+                  <div>
+                    <strong>Juara 1 Essay Competition di Seminar and Creative Data Competition</strong>
+                    <p>Departemen Statistika Bisnis Institut Teknologi Sepuluh Nopember</p>
+                    <small>Nov 2022</small>
+                  </div>
+                </article>
+                <article class="timeline-item">
+                  <span class="timeline-dot"></span>
+                  <div>
+                    <strong>Juara 2 dan Peraih Best Metric Performance di Statistics Explore: Big Data Competition</strong>
+                    <p>Statistika FMIPA Universitas Syiah Kuala</p>
+                    <small>Sept 2022</small>
+                  </div>
+                </article>
+                <article class="timeline-item">
+                  <span class="timeline-dot"></span>
+                  <div>
+                    <strong>Finalis Data Slayer 1.0: Machine Learning Competition</strong>
+                    <p>Sains Data Institut Teknologi Telkom Purwokerto</p>
+                    <small>Des 2023</small>
+                  </div>
+                </article>
+                <article class="timeline-item">
+                  <span class="timeline-dot"></span>
+                  <div>
+                    <strong>Finalis Dataquest: Objective Quest di Airlangga Technology Week</strong>
+                    <p>Teknologi Sains Data FTMM Universitas Airlangga</p>
+                    <small>Sept - Okt 2023</small>
+                  </div>
+                </article>
+                <article class="timeline-item">
+                  <span class="timeline-dot"></span>
+                  <div>
+                    <strong>Semifinalis Data Analysis Competition di National Statistics Challenge</strong>
+                    <p>Statistika FMIPA Universitas Brawijaya</p>
+                    <small>Sept - Okt 2022</small>
+                  </div>
+                </article>
+              </div>
+            </div>
+
+            <div class="card stack-card">
+              <h3>SERTIFIKAT</h3>
+              <ul class="bullet-list">
+                <li>TensorFlow Developer Certificate</li>
+                <li>Microsoft Power BI Certificate</li>
+                <li>Microsoft Excel Certificate</li>
+                <li>Looker Studio Certificate</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="resume-column">
+            <div class="card stack-card">
+              <h3>Pengalaman</h3>
+              <div class="timeline">
+                <article class="timeline-item">
+                  <span class="timeline-dot" aria-hidden="true"></span>
+                  <div class="timeline-content">
+                    <div class="timeline-top">
+                      <div>
+                        <strong>Machine Learning Cohort</strong>
+                        <p class="timeline-company">Bangkit Academy led by Google, GoTo, & Traveloka</p>
+                        <p class="timeline-location">Yogyakarta, Indonesia</p>
+                      </div>
+                      <small class="timeline-date">Feb - Jul 2023</small>
+                    </div>
+                    <ul class="timeline-list">
+                      <li>
+                        Bertanggung jawab sebagai Machine Learning Engineer untuk Karira App (Capstone Project) 
+                        yaitu suatu platform penghubung freelancer dan rekruiter dalam aplikasi mobile 
+                        berbasis Natural Language Processing (NLP) untuk memprediksi keahlian relevan dan rekomendasi harga jasa.
+                      </li>
+                    </ul>
+                    <div class="timeline-highlight">
+                        <span>
+                          <img src="assets/logo.svg" alt="icon" class="highlight-icon">
+                          Highlight Placeholder
+                        </span>
+                    </div>
+                  </div>
+                </article>
+                <article class="timeline-item">
+                  <span class="timeline-dot" aria-hidden="true"></span>
+                  <div class="timeline-content">
+                    <div class="timeline-top">
+                      <div>
+                        <strong>Staff Intern</strong>
+                        <p class="timeline-company">Badan Pusat Statistik Kota Kediri</p>
+                        <p class="timeline-location">Kediri, Jawa Timur, Indonesia</p>
+                      </div>
+                      <small class="timeline-date">Des 2022 - Jan 2023</small>
+                    </div>
+                    <ul class="timeline-list">
+                      <li>
+                        Mengelola berkas statistik harga produksi dan nilai pendapatan dari berbagai sektor industri.
+                      </li>
+                      <li>
+                        Mengawasi pelaksanaan batching pada setiap kecamatan di Kota Kediri dalam Sistem Pengelolaan Dokumen untuk Registrasi Sosial Ekonomi (REGSOSEK) 2022.
+                      </li>
+                      <li>
+                        Memastikan kesesuaian rekapitulasi data informasi pemandu jalan sebagai dasar penyaluran honorarium REGSOSEK 2022.
+                      </li>
+                    </ul>
+                    <div class="timeline-highlight">
+                        <span>
+                          <img src="assets/logo.svg" alt="icon" class="highlight-icon">
+                          Highlight Placeholder
+                        </span>
+                    </div>
+                  </div>
+                </article>
+                <article class="timeline-item">
+                  <span class="timeline-dot" aria-hidden="true"></span>
+                  <div class="timeline-content">
+                    <div class="timeline-top">
+                      <div>
+                        <strong>Delegasi Statistika Ria dan Festival Sains Data (SATRIA DATA)</strong>
+                        <p class="timeline-company">Universitas Gadjah Mada</p>
+                        <p class="timeline-location">Yogyakarta, Indonesia</p>
+                      </div>
+                      <small class="timeline-date">Sept - Nov 2022</small>
+                    </div>
+                    <ul class="timeline-list">
+                      <li>
+                        Mengelola alur kerja tim untuk Big Data Competition (BDC) dalam menyelesaikan studi kasus “Klasifikasi Status Pulang Peserta berdasarkan Fasilitas Kesehatan Tingkat Pertama BPJS”. Nilai metrik evaluasi yang diperoleh sebesar 99,8939% dan memperoleh peringkat ke-26 dari 200 tim.
+                      </li>
+                      <li>
+                        Berperan dalam membangun komputasi statistik pada esai “Analisis Pemodelan Klasifikasi Citra Multi-Kelas pada Arsitektur Mesin Pemilah Sampah Cerdas sebagai Upaya Penanganan Permasalahan Sampah di Indonesia” untuk Statistics Essay Competition (SEC).
+                      </li>
+                    </ul>
+                    <div class="timeline-highlight">
+                        <span>
+                          <img src="assets/logo.svg" alt="icon" class="highlight-icon">
+                          Highlight Placeholder
+                        </span>
+                    </div>
+                  </div>
+                </article>
+                 <article class="timeline-item">
+                  <span class="timeline-dot" aria-hidden="true"></span>
+                  <div class="timeline-content">
+                    <div class="timeline-top">
+                      <div>
+                        <strong>Delegasi Divisi Penambangan Data<br>Pagelaran Mahasiswa Nasional Bidang Teknologi Informasi dan Komunikasi (GEMASTIK) XV</strong>
+                        <p class="timeline-company">Universitas Gadjah Mada</p>
+                        <p class="timeline-location">Yogyakarta, Indonesia</p>
+                      </div>
+                      <small class="timeline-date">Okt 2022</small>
+                    </div>
+                    <ul class="timeline-list">
+                      <li>
+                        Bertanggung jawab dalam menginisiasi riset NLP pada penelitian “Implementasi Metode BERT pada Automatic Essay Scoring Bahasa Indonesia untuk Sistem Penilaian Ujian Esai di Indonesia”. Penelitian ini memperoleh nilai metrik evaluasi sebesar 88,4% pada data uji.
+                      </li>
+                    </ul>
+                    <div class="timeline-highlight">
+                        <span>
+                          <img src="assets/logo.svg" alt="icon" class="highlight-icon">
+                          Highlight Placeholder
+                        </span>
+                    </div>
+                  </div>
+                </article>
+                <article class="timeline-item">
+                  <span class="timeline-dot" aria-hidden="true"></span>
+                  <div class="timeline-content">
+                    <div class="timeline-top">
+                      <div>
+                        <strong>Enumerator Intern<br>Survei Literasi Digital Kabupaten Sleman</strong>
+                        <p class="timeline-company">Departemen Matematika FMIPA Universitas Gadjah Mada</p>
+                        <p class="timeline-location">Yogyakarta, Indonesia</p>
+                      </div>
+                      <small class="timeline-date">Sept - Nov 2022</small>
+                    </div>
+                    <ul class="timeline-list">
+                      <li>
+                        Mempelajari dan mengerjakan proses pengumpulan data dengan metode survei sampel.
+                      </li>
+                      <li>
+                        Berkoordinasi dengan tim dalam pemahaman etika dan prosedur pengumpulan data responden.
+                      </li>
+                      <li>
+                        Meningkatkan kemampuan sosialisasi dan komunikasi dalam menjelaskan kuesioner Survei Literasi Digital menggunakan bahasa yang mudah dipahami oleh responden.
+                      </li>
+                    </ul>
+                    <div class="timeline-highlight">
+                        <span>
+                          <img src="assets/logo.svg" alt="icon" class="highlight-icon">
+                          Highlight Placeholder
+                        </span>
+                    </div>
+                  </div>
+                </article>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="portfolio" class="section">
+      <div class="container">
+        <div class="section-heading reveal">
+          <span class="section-kicker">Proyek Pribadi</span>
+          <h2>Portofolio</h2>
+          <div class="section-line"></div>
+        </div>
+
+        <div class="portfolio-toolbar reveal">
+          <div class="filter-group" aria-label="Filter project">
+            <button class="filter-chip is-active" data-filter="all">Semua</button>
+            <button class="filter-chip" data-filter="Analytical Dashboard">Analytical Dashboard</button>
+            <button class="filter-chip" data-filter="Data Science / Machine Learning">Data Science / Machine Learning</button>
+            <button class="filter-chip" data-filter="Data Scraping">Data Scraping</button>
+            <button class="filter-chip" data-filter="Statistical Analysis">Statistical Analysis</button>
+          </div>
+          <!-- <p class="portfolio-note"></p> -->
+        </div>
+
+        <div id="portfolioGrid" class="portfolio-grid reveal"></div>
+      </div>
+    </section>
+
+    <section id="tools" class="section">
+      <div class="container">
+        <div class="section-heading reveal">
+          <span class="section-kicker">Keahlian</span>
+          <h2>Tools Utama</h2>
+          <div class="section-line"></div>
+        </div>
+
+        <div class="tool-grid reveal">
+          <article class="tool-card">
+            <div class="tool-icon">
+              <img src="assets/excel.png" alt="Excel">
+            </div>
+            <h3>Microsoft Excel</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
+          </article>
+          <article class="tool-card">
+            <div class="tool-icon">
+              <img src="assets/powerbi.png" alt="Excel">
+            </div>
+            <h3>Microsoft Power BI</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
+          </article>
+          <article class="tool-card">
+            <div class="tool-icon">
+              <img src="assets/looker.svg" alt="Excel">
+            </div>
+            <h3>Looker Studio</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
+          </article>
+          <article class="tool-card">
+            <div class="tool-icon">
+              <img src="assets/python.png" alt="Excel">
+            </div>
+            <h3>Python</h3>
+            <p>Mengelola task, sprint, dan alur kerja proyek secara lebih terstruktur.</p>
+          </article>
+          <article class="tool-card">
+            <div class="tool-icon">
+              <img src="assets/r.png" alt="Excel">
+            </div>
+            <h3>R</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
+          </article>
+          <article class="tool-card">
+            <div class="tool-icon">
+              <img src="assets/sql.png" alt="Excel">
+            </div>
+            <h3>SQL</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- <section id="skills" class="section">
+      <div class="container">
+        <div class="section-heading reveal">
+          <span class="section-kicker">Capabilities</span>
+          <h2>Skills</h2>
+          <div class="section-line"></div>
+        </div>
+
+        <div class="skills-wrap reveal">
+          <div class="skill-cloud">
+            <span>UI Design</span>
+            <span>Wireframing</span>
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>Bootstrap</span>
+            <span>JavaScript</span>
+            <span>Tailwind</span>
+            <span>React Concept</span>
+            <span>Responsive Layout</span>
+            <span>Design System</span>
+            <span>Animation</span>
+            <span>Prototyping</span>
+          </div>
+
+          <div class="skill-metrics">
+            <article class="metric-card">
+              <div class="metric-head">
+                <h3>Responsive UI</h3>
+                <span>92%</span>
+              </div>
+              <div class="meter"><span style="width:92%"></span></div>
+              <p>Fokus pada konsistensi antar desktop, tablet, dan mobile.</p>
+            </article>
+            <article class="metric-card">
+              <div class="metric-head">
+                <h3>Design System</h3>
+                <span>88%</span>
+              </div>
+              <div class="meter"><span style="width:88%"></span></div>
+              <p>Membuat komponen reusable agar UI lebih rapi dan cepat dikembangkan.</p>
+            </article>
+            <article class="metric-card">
+              <div class="metric-head">
+                <h3>Front-End Build</h3>
+                <span>84%</span>
+              </div>
+              <div class="meter"><span style="width:84%"></span></div>
+              <p>Implementasi tampilan ke kode dengan struktur yang bersih.</p>
+            </article>
+            <article class="metric-card">
+              <div class="metric-head">
+                <h3>Interaction Detail</h3>
+                <span>80%</span>
+              </div>
+              <div class="meter"><span style="width:80%"></span></div>
+              <p>Hover, transisi, dan animasi lembut untuk pengalaman yang lebih hidup.</p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section> -->
+
+    <section id="contact" class="section">
+      <div class="container">
+        <div class="contact-card reveal">
+          <div>
+            <span class="section-kicker">Mari Berkolaborasi</span>
+            <h2>Tertarik untuk bekerja sama atau berdiskusi?</h2>
+            <p>
+              Saya terbuka untuk peluang sebagai Data Analyst, freelance project,
+              maupun kolaborasi dalam pengolahan dan analisis data.
+              Jangan ragu untuk menghubungi saya.
+            </p>
+          </div>
+          <div class="contact-actions">
+            <a class="btn btn-primary" href="mailto:fadilirsyadm@gmail.com" target="_blank">
+              <img src="assets/email.png" alt="Email" class="btn-icon">
+            </a>
+            <a class="btn btn-primary" href="https://linkedin.com/in/fadilirsyadm" target="_blank">
+              <img src="assets/linkedin.png" alt="LinkedIn" class="btn-icon">
+            </a>
+            <a class="btn btn-primary" href="https://wa.me/6289680785884" target="_blank">
+              <img src="assets/wa.png" alt="WhatsApp" class="btn-icon">
+            </a>
+            <a class="btn btn-secondary" href="#home">Kembali ke atas</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© 2026, All right reserved.</p>
+      <!-- <p>Dibuat dengan HTML, CSS, dan JavaScript.</p> -->
+    </div>
+  </footer>
+
+  <script>
+    window.PORTFOLIO_PROJECTS = [
+      {"title": "Workouts Performance Analytics", 
+      "category": "Analytical Dashboard", 
+      "year": "2026", 
+      "image": "assets/projects/project-01.svg", 
+      "description": "Belum dipublikasikan.", 
+      "tags": ["Dashboard", "Data Analysis", "Microsoft Excel", "Microsoft Power BI", "Python"]}, 
+
+      {"title": "Karira App", 
+      "category": "Data Science / Machine Learning", 
+      "year": "2023", 
+      "image": "assets/projects/project-02.svg", 
+      "description": "Belum dipublikasikan.", 
+      "tags": ["Machine Learning", "TensorFlow", "Mobile App", "Python", "Capstone Project"]}, 
+
+      {"title": "Pemodelan Rekognisi Lembar Skor Catur Tulisan Tangan", 
+      "category": "Statistical Analysis", 
+      "year": "2025", 
+      "image": "assets/projects/project-08.svg", 
+      "description": "Belum dipublikasikan.", 
+      "tags": ["Statistics", "Data Science", "Machine Learning", "Deep Learning", "Python", "Research"]},
+
+      {"title": "Analisis Sentimen I", 
+      "category": "Data Science / Machine Learning", 
+      "year": "2022", 
+      "image": "assets/projects/project-03.svg", 
+      "description": "Belum dipublikasikan.", 
+      "tags": ["Data Science", "Machine Learning", "Python", "Competition"]}, 
+
+      {"title": "Analisis Sentimen II", 
+      "category": "Data Science / Machine Learning", 
+      "year": "2022", 
+      "image": "assets/projects/project-04.svg", 
+      "description": "Belum dipublikasikan.", 
+      "tags": ["Data Science", "Machine Learning", "Python", "Competition"]}, 
+      
+      {"title": "Prediksi Emisi Karbon Dioksida pada Mobil", 
+      "category": "Data Science / Machine Learning", 
+      "year": "2023", 
+      "image": "assets/projects/project-05.svg", 
+      "description": "Belum dipublikasikan.", 
+      "tags": ["Data Science", "Machine Learning", "Python", "Competition"]}, 
+      
+      {"title": "Prediksi Curah Hujan IKN", 
+      "category": "Data Science / Machine Learning", 
+      "year": "2023", 
+      "image": "assets/projects/project-06.svg", 
+      "description": "Belum dipublikasikan.", 
+      "tags": ["Data Science", "Machine Learning", "Python", "Competition"]}, 
+      
+      {"title": "Web Scraping: Data Rumah Sakit se-Indonesia", 
+      "category": "Data Scraping", 
+      "year": "2024", 
+      "image": "assets/projects/project-07.svg", 
+      "description": "Belum dipublikasikan.", 
+      "tags": ["Web Scraping", "Python"]},  
+      
+      {"title": "Research I", 
+      "category": "Statistical Analysis", 
+      "year": "2025", 
+      "image": "assets/projects/project-09.svg", 
+      "description": "Belum dipublikasikan.", 
+      "tags": ["Statistics", "R", "Research"]}, 
+      
+      {"title": "Research II", 
+      "category": "Statistical Analysis", 
+      "year": "2025", 
+      "image": "assets/projects/project-10.svg", 
+      "description": "Belum dipublikasikan.", 
+      "tags": ["Statistics", "SmartPLS 4", "Research"]}, 
+    ];
+  </script>
+  <script src="script.js"></script>
+</body>
+</html>
