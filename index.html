@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="id">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -8,12 +9,13 @@
   <link rel="icon" type="image/svg+xml" href="favicon.svg" />
   <link rel="stylesheet" href="styles.css" />
 </head>
+
 <body>
   <div class="page-noise" aria-hidden="true"></div>
 
   <header class="site-header">
     <div class="container header-inner">
-      <a class="brand" href="#home" aria-label="Portfolio Dark UI">
+      <a class="brand" href="#home" aria-label="Personal Website Portfolio">
         <img src="assets/logo.svg" alt="" />
       </a>
 
@@ -46,23 +48,23 @@
 
           <div class="hero-actions">
             <a class="btn btn-primary" href="#portfolio">Lihat Portofolio</a>
-            <a class="btn btn-secondary" href="https://fadilirsyadm.github.io/cv/">Unduh CV</a>
             <a class="btn btn-secondary" href="#contact">Hubungi Saya</a>
+            <a class="btn btn-secondary btn-cv" href="https://fadilirsyadm.github.io/cv/" target="_blank">Unduh CV</a>
           </div>
 
           <div class="socials" aria-label="Tautan sosial">
-            <a href="https://linkedin.com/in/fadilirsyadm" aria-label="LinkedIn" target="_blank">
+            <a href="https://linkedin.com/in/fadilirsyadm" aria-label="LinkedIn" data-tooltip="LinkedIn" target="_blank">
               <img src="assets/linkedin-gray.png" alt="LinkedIn" class="social-icon">
             </a>
-            <a href="https://github.com/fadilirsyadm" aria-label="GitHub" target="_blank">
+            <a href="https://github.com/fadilirsyadm" aria-label="GitHub" data-tooltip="GitHub" target="_blank">
               <img src="assets/github.png" alt="GitHub" class="social-icon">
             </a>
-            <a href="https://www.kaggle.com/fadilirsyadmuhammad" aria-label="Kaggle" target="_blank">
+            <a href="https://www.kaggle.com/fadilirsyadmuhammad" aria-label="Kaggle" data-tooltip="Kaggle" target="_blank">
               <img src="assets/kaggle.png" alt="Kaggle" class="social-icon">
             </a>
-            <!-- <a href="#" aria-label="Dribbble">
-              <span class="social-icon">Dr</span>
-            </a> -->
+            <a href="https://medium.com/@fadilirsyadm" aria-label="Medium" data-tooltip="Medium" target="_blank">
+              <img src="assets/medium.png" alt="Medium" class="social-icon">
+            </a>
           </div>
 
           <div class="hero-stats">
@@ -147,7 +149,7 @@
                 <article class="timeline-item">
                   <span class="timeline-dot"></span>
                   <div>
-                    <strong>Universitas Gadjah Mada</strong>
+                    <strong>UNIVERSITAS GADJAH MADA</strong>
                     <p>S1 Statistika</p>
                     <small>2025</small>
                   </div>
@@ -405,42 +407,42 @@
               <img src="assets/excel.png" alt="Excel">
             </div>
             <h3>Microsoft Excel</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
+            <p>Pengolahan data, pembersihan dataset, dan analisis deskriptif.</p>
           </article>
           <article class="tool-card">
             <div class="tool-icon">
               <img src="assets/powerbi.png" alt="Excel">
             </div>
             <h3>Microsoft Power BI</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
+            <p>Membangun dasbor interaktif dan visualisasi untuk pelaporan bisnis.</p>
           </article>
           <article class="tool-card">
             <div class="tool-icon">
               <img src="assets/looker.svg" alt="Excel">
             </div>
             <h3>Looker Studio</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
+            <p>Menyusun dasbor ringan untuk monitoring dan presentasi insight.</p>
           </article>
           <article class="tool-card">
             <div class="tool-icon">
               <img src="assets/python.png" alt="Excel">
             </div>
             <h3>Python</h3>
-            <p>Mengelola task, sprint, dan alur kerja proyek secara lebih terstruktur.</p>
+            <p>Analisis data, automasi, data cleaning, dan pemodelan sederhana.</p>
           </article>
           <article class="tool-card">
             <div class="tool-icon">
               <img src="assets/r.png" alt="Excel">
             </div>
             <h3>R</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
+            <p>Analisis statistik, eksplorasi data, dan visualisasi berbasis script.</p>
           </article>
           <article class="tool-card">
             <div class="tool-icon">
               <img src="assets/sql.png" alt="Excel">
             </div>
             <h3>SQL</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
+            <p>Query, join, agregasi, dan ekstraksi data untuk kebutuhan analisis.</p>
           </article>
         </div>
       </div>
@@ -524,9 +526,9 @@
             <a class="btn btn-primary" href="mailto:fadilirsyadm@gmail.com" target="_blank">
               <img src="assets/email.png" alt="Email" class="btn-icon">
             </a>
-            <a class="btn btn-primary" href="https://linkedin.com/in/fadilirsyadm" target="_blank">
+            <!-- <a class="btn btn-primary" href="https://linkedin.com/in/fadilirsyadm" target="_blank">
               <img src="assets/linkedin.png" alt="LinkedIn" class="btn-icon">
-            </a>
+            </a> -->
             <a class="btn btn-primary" href="https://wa.me/6289680785884" target="_blank">
               <img src="assets/wa.png" alt="WhatsApp" class="btn-icon">
             </a>
@@ -546,12 +548,23 @@
 
   <script>
     window.PORTFOLIO_PROJECTS = [
+      {"title": "Gaming Product Sales Performance Analysis", 
+      "category": "Analytical Dashboard", 
+      "year": "2026", 
+      "image": "assets/projects/project-01.png", 
+      "description": "Analisis kinerja penjualan produk gaming untuk menunjukkan kemampuan data cleaning, exploratory data analysis, business insight, dan membangun dashboard di Microsoft Power BI.", 
+      "tags": ["Dashboard", "Data Analysis", "Microsoft Excel", "Microsoft Power BI"],
+      "url": "https://fadilirsyadm.github.io/portfolio/gaming-product-sales-performance-analysis",
+      "newTab": true},
+      
       {"title": "Workouts Performance Analytics", 
       "category": "Analytical Dashboard", 
       "year": "2026", 
       "image": "assets/projects/project-01.svg", 
       "description": "Belum dipublikasikan.", 
-      "tags": ["Dashboard", "Data Analysis", "Microsoft Excel", "Microsoft Power BI", "Python"]}, 
+      "tags": ["Dashboard", "Data Analysis", "Microsoft Excel", "Microsoft Power BI", "Python"],
+      "url": "#",
+      "newTab": true},
 
       {"title": "Karira App", 
       "category": "Data Science / Machine Learning", 
